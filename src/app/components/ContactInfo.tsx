@@ -16,7 +16,7 @@ const ContactInfo = ({
       <div
         className={`${color} w-12 rounded-l-lg h-12 flex justify-center items-center text-lg`}
       >
-        <i className={`${icon} [text-shadow:_0_0_2px_black]`}></i>
+        <i className={`${icon} text-white [text-shadow:_0_0_2px_black]`}></i>
       </div>
       <div className="text-sm text-center grow text-white">
         {link ? (
