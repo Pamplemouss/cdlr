@@ -18,9 +18,9 @@ const ContactInfo = ({
       >
         <i className={`${icon} [text-shadow:_0_0_2px_black]`}></i>
       </div>
-      <div className="text-sm text-center grow">
+      <div className="text-sm text-center grow text-white">
         {link ? (
-          <a href={link} className="underline">
+          <a href={link} className="underline text-white">
             {text}
           </a>
         ) : (

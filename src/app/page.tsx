@@ -31,7 +31,7 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="text-xs bg-slate-600 mx-4 mb-10 p-3 rounded-lg shadow shadow-black/50">
+      <div className="text-xs bg-slate-600 mx-4 mb-10 p-3 rounded-lg shadow shadow-black/50 text-white">
         Le Collier de la Reine est un jeu de société d’aventure à rôles cachés.
         Vous incarnez un groupe de mousquetaires ayant pour mission de rapporter
         le collier de la Reine jusqu’à la cour du Roi de France.
@@ -47,17 +47,12 @@ export default function Home() {
 
       <div className="flex flex-col w-full justify-center items-center gap-5">
         <ContactInfo
-          color="bg-green-400"
+          color="bg-sky-400"
           icon="fa-regular fa-envelope"
           text="jeremyetjohn@gmail.com"
         />
         <ContactInfo
-          color="bg-red-400"
-          icon="fa-solid fa-mobile-screen-button"
-          text="06 67 85 45 25"
-        />
-        <ContactInfo
-          color="bg-yellow-400"
+          color="bg-sky-400"
           icon="fa-brands fa-instagram"
           text="Instagram"
           link="https://www.instagram.com/jeremyetjohn/"
@@ -72,7 +67,7 @@ export default function Home() {
 
       <div className="flex justify-center w-full mb-10">
         <div onClick={() => up()} className="w-16 aspect-square bg-slate-700 rounded-full cursoir-pointer flex justify-center items-center shadow shadow-black/50">
-          <i className="fa-solid fa-chevron-up text-lg"></i>
+          <i className="fa-solid fa-chevron-up text-lg text-white"></i>
         </div>
       </div>
     </div>
